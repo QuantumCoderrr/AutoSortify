@@ -61,7 +61,8 @@ python main.py /path/to/your/folder
 ---
 
 ## 📄 Logs
-All operations are saved in autosortify.log with timestamps, success/failure, and file movements.
+- Logs are saved in: ~/AutoSortify/autosortify.log
+- Summary is saved as: ~/AutoSortify/summary.txt
 
 
 
