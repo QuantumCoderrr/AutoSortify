@@ -37,6 +37,14 @@ AutoSortify scans the specified folder, detects file types based on extension, a
 
 ---
 
+## 🖼️ GUI Preview 
+
+<p align="center">
+  <img src="assets/autosortify-ui.png" alt="AutoSortify GUI Screenshot" width="600"/>
+</p>
+
+---
+
 ## 📌 Usage
 
 ### 1. Clone the repo
