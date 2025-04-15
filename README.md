@@ -1,18 +1,19 @@
-# 🚀 AutoSortify
+# AutoSortify 🚀
 
-### A smart Python file organizer that de-clutters your folders with one command.
+**AutoSortify** is a smart file organizer with both CLI and GUI support. It organizes your digital mess into categorized folders with detailed logs, real-time progress bars, dry-run preview, and dark mode GUI — all wrapped in one sleek Python project.
 
----
+## 🔥 Features
 
-## ⚡ Features
-
-- 🧠 Auto-categorizes files (Documents, Images, Code, etc.)
-- 💻 Built-in GUI using Tkinter for easier use
-- 🕒 Scheduler-ready via cron/Task Scheduler
-- 📊 Real-time progress bar using `tqdm`
-- 📝 Logs actions to `autosortify.log`
-- 🔧 Clean folder structure & robust error handling
-
+- 📁 Categorizes files by extension into folders like Documents, Images, Videos, etc.
+- 🎛️ GUI built with Tkinter (with Dark/Light mode toggle)
+- 💻 CLI mode with flags for dry-run and copy
+- 📈 Real-time progress bar with `tqdm`
+- 🪵 Full logging support
+- 🧾 Generates a detailed summary report
+- 🔐 Handles filename conflicts safely
+- ⏲️ Cron & Task Scheduler compatible
+- 🧪 Dry run mode to preview changes
+- 💾 Log and summary saved in `~/AutoSortify/`
 ---
 
 ## 📦 File Categories
