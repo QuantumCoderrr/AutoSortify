@@ -7,7 +7,7 @@ from tqdm import tqdm
 from tkinter import Tk, filedialog, Button, Label, Checkbutton, IntVar, ttk
 import datetime
 
-# Categories
+# --- File categories ---
 FILE_CATEGORIES = {
     "Documents": ['.pdf', '.docx', '.txt', '.xlsx', '.pptx'],
     "Images": ['.jpg', '.jpeg', '.png', '.gif', '.svg'],
@@ -19,11 +19,9 @@ FILE_CATEGORIES = {
     "Others": []
 }
 
-# Setup cross-platform log path
-HOME_DIR = os.path.expanduser("~")
-LOG_DIR = os.path.join(HOME_DIR, "AutoSortify", "logs")
-os.makedirs(LOG_DIR, exist_ok=True)
-LOG_FILE = os.path.join(LOG_DIR, "autosortify.log")
+# --- Logging setup (IN CURRENT DIR) ---
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+LOG_FILE = os.path.join(SCRIPT_DIR, "autosortify.log")
 
 logging.basicConfig(
     filename=LOG_FILE,
